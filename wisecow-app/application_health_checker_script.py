@@ -17,7 +17,7 @@ logging.basicConfig(filename='app_health_check.log',
                     level=logging.INFO)
 
 # URL of the application to monitor
-APP_URL = "https://example.com"  # Replace with the actual URL of your application
+APP_URL = "https://example.com"  # Replace with the actual URL of our application
 
 # Frequency of checks in seconds
 CHECK_INTERVAL = 300  # 5 minute
